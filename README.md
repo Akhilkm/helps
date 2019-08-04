@@ -374,3 +374,13 @@ git push origin --delete $(git tag -l)                # Pushing once should be f
 git tag -d $(git tag -l)
 git tag -l
 ```
+
+
+## Find files installed by a package (RPM based distro)
+
+[:point_up_2:](#helps)
+
+'''
+rpm --query --list  <package-name>
+eg: rpm --query --list libcgroup | less
+'''
