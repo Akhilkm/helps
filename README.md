@@ -49,8 +49,6 @@
 
 [github markdown emoji](https://github.com/akhilrajmailbox/helps/blob/master/markdown-emoji.md)
 
-[Find files installed by a package](#windows-server-free-product-key)
-
 [Find files installed by a package](#Find-files-installed-by-a-package)
 
 ## windows-server-free-product-key
