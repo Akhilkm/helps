@@ -49,6 +49,9 @@
 
 [github markdown emoji](https://github.com/akhilrajmailbox/helps/blob/master/markdown-emoji.md)
 
+[Find files installed by a package](#windows-server-free-product-key)
+
+[Find files installed by a package](#Find files installed by a package)
 
 ## windows-server-free-product-key
 
@@ -376,11 +379,13 @@ git tag -l
 ```
 
 
-## Find files installed by a package (RPM based distro)
+## Find files installed by a package 
 
 [:point_up_2:](#helps)
 
-'''
+```
+RPM based distro
+
 rpm --query --list  <package-name>
 eg: rpm --query --list libcgroup | less
-'''
+```
