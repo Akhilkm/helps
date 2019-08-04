@@ -51,7 +51,7 @@
 
 [Find files installed by a package](#windows-server-free-product-key)
 
-[Find files installed by a package](#Find files installed by a package)
+[Find files installed by a package](#Find-files-installed-by-a-package)
 
 ## windows-server-free-product-key
 
@@ -379,7 +379,7 @@ git tag -l
 ```
 
 
-## Find files installed by a package 
+## Find-files-installed-by-a-package 
 
 [:point_up_2:](#helps)
 
