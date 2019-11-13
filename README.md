@@ -90,6 +90,15 @@ export LANGUAGE="en_US.UTF-8"
 echo 'LANGUAGE="en_US.UTF-8"' >> /etc/default/locale
 echo 'LC_ALL="en_US.UTF-8"' >> /etc/default/locale      # exit and login again
 dpkg-reconfigure locales
+
+or
+
+echo """
+LANGUAGE=\"en_US.UTF-8\"
+LANG=\"en_US.UTF-8\"
+LC_ALL=\"en_US.UTF-8\"
+JAVA_HOME=\"/usr/lib/jvm/java-8-openjdk-amd64\"
+""" >> /etc/environment
 ```
 
 ## image-compression
