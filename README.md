@@ -400,6 +400,9 @@ eg: rpm --query --list libcgroup | less
 ```
 
 ## Clear-RAM-Memory-Cache-Buffer-and-Swap-Space-on-Linux
+
+[:point_up_2:](#helps)
+
 ```
 Clear PageCache only.
 sync; echo 1 > /proc/sys/vm/drop_caches
