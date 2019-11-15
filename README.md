@@ -47,9 +47,11 @@
 
 [Windows Server 2012 R2 -- Free product key](#windows-server-free-product-key)
 
-[github markdown emoji](https://github.com/akhilrajmailbox/helps/blob/master/markdown-emoji.md)
+[github markdown emoji](https://github.com/akhilkm/helps/blob/master/markdown-emoji.md)
 
 [Find files installed by a package](#Find-files-installed-by-a-package)
+
+[Clear RAM Memory Cache, Buffer and Swap Space on Linux](#Clear-RAM-Memory-Cache-Buffer-and-Swap-Space-on-Linux)
 
 ## windows-server-free-product-key
 
@@ -395,4 +397,16 @@ RPM based distro
 
 rpm --query --list  <package-name>
 eg: rpm --query --list libcgroup | less
+```
+
+## Clear-RAM-Memory-Cache-Buffer-and-Swap-Space-on-Linux
+```
+Clear PageCache only.
+sync; echo 1 > /proc/sys/vm/drop_caches
+
+Clear dentries and inodes.
+sync; echo 2 > /proc/sys/vm/drop_caches
+
+Clear PageCache, dentries and inodes.
+sync; echo 3 > /proc/sys/vm/drop_caches
 ```
