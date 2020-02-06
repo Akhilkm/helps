@@ -1,7 +1,4 @@
-FROM nginx
-
-MAINTAINER Akhil <akhilu011@gmail.com> 
-
-COPY 2048 /usr/share/nginx/html
-
-EXPOSE 80
+FROM node:6.14.2
+EXPOSE 8080
+COPY server.js .
+CMD [ "node", "server.js" ]
