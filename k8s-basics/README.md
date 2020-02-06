@@ -25,5 +25,6 @@ kubectl logs <<pod name>>
 
 ### Create the service
 ```
-
+kubectl create -f service.yaml
+kubectl get services
 ```
