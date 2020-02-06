@@ -2,7 +2,7 @@
 
 ### Building docker image
 ```
-docker build . -t <<remote repo>>
+docker build ./images/2048 -t <<remote repo>>
 ``` 
 
 ### Pusing docker image into remote repository
