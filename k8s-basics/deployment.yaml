@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: node-deployment
+  name: game-deployment
   labels:
-    app: node
+    app: game
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: node
+      app: game
   template:
     metadata:
       labels:
-        app: node
+        app: game
     spec:
       containers:
-      - name: node
+      - name: game
         image: akhilkm/2048:latest
         ports:
         - containerPort: 80

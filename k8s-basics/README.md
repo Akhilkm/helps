@@ -38,4 +38,5 @@ kubectl get services -n demo
 ```
 kubectl delete -f deployment.yaml -n demo
 kubectl delete -f service.yaml -n demo
+kubectl delete ns demo
 ```
