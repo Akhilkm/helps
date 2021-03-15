@@ -53,6 +53,8 @@
 
 [Clear RAM Memory Cache, Buffer and Swap Space on Linux](#Clear-RAM-Memory-Cache-Buffer-and-Swap-Space-on-Linux)
 
+[Docker sort memory usage by container](#Docker-sort-memory-usage-by-container)
+
 ## windows-server-free-product-key
 
 [:point_up_2:](#helps)
@@ -412,4 +414,12 @@ sync; echo 2 > /proc/sys/vm/drop_caches
 
 Clear PageCache, dentries and inodes.
 sync; echo 3 > /proc/sys/vm/drop_caches
+```
+
+## Docker-sort-memory-usage-by-container
+
+[:point_up_2:](#helps)
+
+```
+docker stats --no-stream --format "table {{.Name}}\t{{.Container}}\t{{.CPUPerc}}\t{{.MemUsage}}" | sort -k 4 -h
 ```
