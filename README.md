@@ -429,7 +429,5 @@ docker stats --no-stream --format "table {{.Name}}\t{{.Container}}\t{{.CPUPerc}}
 ## Subnet-Masking-define-subnets
 
 [:point_up_2:](#helps)
-```
-https://www.davidc.net/sites/default/subnets/subnets.html
-```
+
 [link](https://www.davidc.net/sites/default/subnets/subnets.html)
