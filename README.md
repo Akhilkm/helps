@@ -55,7 +55,7 @@
 
 [Docker sort memory usage by container](#Docker-sort-memory-usage-by-container)
 
-[Subnet masking subnet design](#Subnet-Masking-define subnets)
+[Subnet masking subnet design](#Subnet-Masking-define-subnets)
 
 ## windows-server-free-product-key
 
@@ -426,7 +426,7 @@ sync; echo 3 > /proc/sys/vm/drop_caches
 docker stats --no-stream --format "table {{.Name}}\t{{.Container}}\t{{.CPUPerc}}\t{{.MemUsage}}" | sort -k 4 -h
 ```
 
-## Subnet-Masking-define subnets
+## Subnet-Masking-define-subnets
 
 [:point_up_2:](#helps)
 ```
