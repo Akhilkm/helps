@@ -55,7 +55,7 @@
 
 [Docker sort memory usage by container](#Docker-sort-memory-usage-by-container)
 
-[Subnet masking, subnet design](#Subnet-Masking-define subnets)
+[Subnet masking subnet design](#Subnet-Masking-define subnets)
 
 ## windows-server-free-product-key
 
